@@ -1,5 +1,9 @@
 package com.tuananh.dao;
 
-public interface INewsDAO {
+import java.util.List;
 
+import com.tuananh.model.NewsModel;
+
+public interface INewsDAO {
+	List<NewsModel> findByCategoryId(Long categoryId);
 }

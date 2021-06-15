@@ -34,8 +34,8 @@ create table news(
     categoryid bigint not null,
     createddate timestamp null,
     modifieddate timestamp null,
-    createdby varchar(255) not null,
-    modifiedby varchar(255) not null
+    createdby varchar(255) null,
+    modifiedby varchar(255) null
 );
 
 create table category(

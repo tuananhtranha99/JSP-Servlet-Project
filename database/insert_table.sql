@@ -6,6 +6,11 @@ insert into category(code,name) values('chinh-tri','Chính trị');
 insert into category(code,name) values('thoi-su','Thời sự');
 insert into category(code,name) values('goc-nhin','Góc nhìn');
 
+insert into news(title,categoryid) values('bài viết 1','1');
+insert into news(title,categoryid) values('bài viết 2','1');
+insert into news(title,categoryid) values('bài viết 3','2');
+
+
 
 insert into role(code,name) values('ADMIN','ADMIN');
 insert into role(code,name) values('USER','USER');
